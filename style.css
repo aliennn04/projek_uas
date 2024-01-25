@@ -1,0 +1,64 @@
+
+header .logout{
+    justify-content: end;
+    display: flex;
+    padding: 10px;
+    gap: 10px
+    
+}
+.card{
+    height: 500px;
+    width: 65%;
+    background-color: rgba(101, 101, 241, 0.158);
+    margin:6% auto;  
+    border-radius: 5px;
+    display: flex;
+    
+}
+.profile-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+.profile-info img{
+    border-radius: 50%;
+    width: 160px;
+    height: 150px;
+    object-fit: cover;
+    margin-right: 20px;
+    padding-left: -70px;
+}
+
+.profile-info,
+.profile-description {
+    max-width: 400px;
+    padding-left: 40px;
+    padding-bottom: 50px;
+}
+.profile-container {
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+    width: 850px; /* Tambahkan padding untuk ruang ekstra */
+}
+.profile-info p,
+.profile-description p {
+    color: #666;
+}button {
+    background-color: #00a2c6;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+button.out{
+    background-color: #00a2c6;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}

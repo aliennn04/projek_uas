@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css1?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+
+
+body {
+    font-family: sans-serif;
+    display: flex;
+    background-color: rgb(59, 47, 47);
+}
+   
+h2{
+text-align: center;
+color: #007bff;
+}
+.form {
+    display: flex;
+    margin: 5% auto;
+    box-shadow: 1px 1px 19px 08px rgb(0 ,0 ,0 , 0.10);
+}
+.img img{
+    background-color: #132226 ;
+    padding-bottom: -90px;   
+    box-shadow: 1px 1px 19px 08px rgba(20, 20, 20, 0.1);
+}
+
+h1{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #132226;
+    outline-color: #fff;
+
+}
+
+#app-login{
+width: 400px;
+padding: 150px;
+padding-bottom: 300px;
+height: 50px;
+background-color: #525b56;
+text-align: center;
+box-shadow: 1px 1px 19px 08px rgba(10, 10, 10, 0.1);
+
+}
+
+#app-login input {
+width: 60%;
+padding: 10px;
+margin: 10px 0;
+border-radius: 2%;
+}
+#app-login input[type="submit"] {
+width: 30%;
+padding: 10px;
+background-color: #007bff;
+color: #fff;
+/* border: none; */
+border-radius: 5px;
+cursor: pointer;
+}
+#app-login input[type="submit"]:hover {
+     background-color: #ff6600;
+}
+@media (max-width:400px) {
+    .login-container{
+        width: 80%;
+    }
+}
+
+button {
+    background-color: #00a2c6;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+button.out{
+    background-color: #00a2c6;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.logout{
+    display: flex;
+    justify-content: end;
+    padding: 15px;
+}

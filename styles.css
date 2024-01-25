@@ -1,0 +1,21 @@
+button {
+    background-color: #00a2c6;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+button.out{
+    background-color: #00a2c6;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.logout{
+    display: flex;
+    justify-content: end;
+    padding: 30px;
+}
